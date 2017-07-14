@@ -145,7 +145,7 @@ Basically, what we do, is converting to uppercase the name you gave for your act
 so, in your reducers, you could use `types.LIST.REQUEST` to check for an action type. The respective type, has a value like this:
 `'MY_RESOURCE_LIST_REQUEST'`. Remember we provided a prefix option (`MY_RESOURCE_`)? This helps you avoid conflicts across the application.
 
-# Polices
+# Policies
 We know there are sometimes when you need perform operations changing a request or response. For those cases, you can use policies.
 
 A policy is basically another middleware, as the follow example:
